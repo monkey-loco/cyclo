@@ -1,11 +1,11 @@
-# OS-specific cruft
+# OS cruft
 .DS_Store
 Thumbs.db
 ehthumbs.db
 Icon?
 ._*
 
-# Temporary or hidden files
+# Temp / editor junk
 *.tmp
 *.log
 *.bak
@@ -13,27 +13,17 @@ Icon?
 *.swo
 *.~lock.*
 
-# Unity build cache directories (if you accidentally export here)
+# IDE metadata (keep project clean)
+.vscode/
+.idea/
+*.iml
+
+# If you ever copy a Unity project folder here by accident, avoid committing heavy caches
 Library/
 Temp/
 Obj/
 Builds/
 
-# Build artifacts Unity creates alongside WebGL exports
-# (Keep Build/ itself if it contains your game, but ignore Unity's cache inside)
-Build/*_BackUpThisFolder_ButDontShipItWithYourGame/
-
-# WebGL compression cache files (keep final data, ignore intermediate caches)
-Build/UnityLoader.js.mem
-Build/*.mem
-Build/*.data.gz
-Build/*.wasm.gz
-
-# Version control backup files
-*.orig
-*.rej
-
-# IDE metadata
-.vscode/
-.idea/
-*.iml
+# Keep both builds tracked — do NOT ignore /prod or /dev
+# prod/
+# dev/
