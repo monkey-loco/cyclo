@@ -15,9 +15,4 @@ Play the original jam version here: [Cyclo on Itch.io](https://bicubic.itch.io/c
 - **1 – 7** – Jump directly to a dimension tier
 - **Shift + Click** – Buy max available
 
-### Music Credits
-
-- **Lunar Voyage** – Aivion Grx from Pixabay
-- **Open Space** – Benjamin Lazzarus from Bensound
-- **Summer** – Benjamin Tissot from Bensound
 
