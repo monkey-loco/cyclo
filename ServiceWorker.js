@@ -1,9 +1,9 @@
 const cacheName = "Marco Paulucci-Cyclo-0.0.2";
 const contentToCache = [
-    "Build/WebGL.loader.js",
-    "Build/WebGL.framework.js.unityweb",
-    "Build/WebGL.data.unityweb",
-    "Build/WebGL.wasm.unityweb",
+    "Build/Cyclo Releases.loader.js",
+    "Build/Cyclo Releases.framework.js.unityweb",
+    "Build/Cyclo Releases.data.unityweb",
+    "Build/Cyclo Releases.wasm.unityweb",
     "TemplateData/style.css"
 
 ];
